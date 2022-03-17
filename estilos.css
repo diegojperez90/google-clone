@@ -16,3 +16,52 @@ body {
 .acceder {
     border-radius: 5px !important
 }
+
+.nav-item .nav-link:hover {
+    text-decoration-line: underline;
+}
+
+.hambur:hover {
+    background-color: gray;
+    border-radius: 30px;
+}
+
+.contenedor-input {
+    border: 1px solid #dfe1e5;
+    border-radius: 24px;
+}
+
+/* .contenedor-input:hover {
+    
+} */
+
+.divInput {
+    width: auto;
+    height: 44px;
+    display: flex;
+    justify-content: center;
+}
+
+.icono_busqueda {
+    width: 22px;
+    height: 22px;
+}
+
+.microfono_google {
+    width: 22px;
+    height: 22px;
+}
+
+.input {
+    width: 86%;
+    height: 100%;
+    border-color: white;
+}
+
+.boton1:hover {
+    border: 1px solid rgb(194, 187, 187) ;
+}
+
+.ancla_espanol {
+    color: rgb(112, 34, 112);
+}
