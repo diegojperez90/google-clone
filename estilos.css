@@ -6,40 +6,42 @@
 
 body {
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 12px;
+    font-size: 14px;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 
-.iconito {
-    width: 26px;
-}
+/* HEADER */
 
-.acceder {
-    border-radius: 5px !important
-}
-
-.nav-item .nav-link:hover {
+.nav-link:hover {
     text-decoration-line: underline;
 }
 
-.hambur:hover {
-    background-color: gray;
-    border-radius: 30px;
+.iconAppsGoogle {
+    width: 26px;
 }
 
-.contenedor-input {
+.botonApps:hover {
+    background-color: rgb(236, 234, 234);
+    border-radius: 50px;
+}
+
+.botonAcceder {
+    border-radius: 5px !important
+}
+
+/* MAIN */
+
+.contenedorInput {
     border: 1px solid #dfe1e5;
     border-radius: 24px;
+    height: 50px;
 }
 
-/* .contenedor-input:hover {
-    
-} */
-
-.divInput {
-    width: auto;
-    height: 44px;
-    display: flex;
-    justify-content: center;
+.contenedorInput:hover {
+    border: 1px solid rgb(194, 187, 187);
 }
 
 .icono_busqueda {
@@ -47,21 +49,63 @@ body {
     height: 22px;
 }
 
-.microfono_google {
-    width: 22px;
-    height: 22px;
-}
-
 .input {
-    width: 86%;
     height: 100%;
     border-color: white;
+}
+
+.microGoogle {
+    width: 22px;
+    height: 22px;
 }
 
 .boton1:hover {
     border: 1px solid rgb(194, 187, 187) ;
 }
 
-.ancla_espanol {
-    color: rgb(112, 34, 112);
+.boton1 {
+    color: #202124;
 }
+
+.linkIdioma {
+    color: #1a0dab;
+    text-decoration: none;
+}
+
+.linkIdioma:hover {
+    text-decoration-line: underline;
+    color: #1a0dab;
+}
+
+/* FOOTER */
+
+.footer {
+    background-color: #f2f2f2;
+}
+
+.paisFooter {
+    padding: 15px 20px;
+    border-bottom: 1px solid #dadce0;
+    font-size: 15px;
+    color: #70757a;
+} 
+
+.nav-link2 {
+    display: block;
+    padding: 15px;
+    color: #70757a;
+    text-decoration: none;
+}
+
+.nav-link2:hover {
+    text-decoration-line: underline;
+    color: #70757a;
+}
+
+
+
+
+
+
+
+

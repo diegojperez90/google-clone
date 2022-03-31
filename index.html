@@ -24,12 +24,9 @@
                         </li>
                     </ul>
     
-                    <!-- <a href="#" class="nav-link active">Gmail</a>
-                    <a href="#" class="nav-link active">Imagenes</a> -->
-    
-                    <div class="btn-group ">
-                        <button class="btn hambur"><img src="/imagenes/icon2.jpg" class="iconito" alt=""></button>
-                        <button class="btn btn-primary acceder ">Acceder</button>
+                    <div class="btn-group gap-1">
+                        <button class="btn botonApps"><img src="/imagenes/icon2.jpg" class="iconAppsGoogle" alt=""></button>
+                        <button class="btn btn-primary botonAcceder ">Acceder</button>
                     </div>
                 </div>
             
@@ -38,46 +35,66 @@
         </div>
     </header>
 
-    <main class="container">
-        <div class="row mb-2">
+    <main class="container m-0">
+        <div class="row mb-1">
             <div class="col">
                 <img src="imagenes/fotogoogle.png" alt="" class="img-fluid">
             </div>
         </div>
 
-        <div class="row mb-5 divInput">
-            <div class="col-lg-6 col-md-8 col-sm-10 d-flex align-items-center justify-content-between contenedor-input">
+        <div class="row mb-2 d-flex justify-content-center p-4">
+            <div class="col-lg-6 col-md-8 col-sm-10 d-flex align-items-center justify-content-between contenedorInput">
                 <img class="img-fluid icono_busqueda" src="imagenes/icon_busqueda.png" alt="icono de busqueda">
                 <input class="form-control transparent-input input" type='text'>
                 <button class="btn" type="button">
                     <a href="https://www.google.com/search?sxsrf=APq-WBsLUM9xjnsBrtiSBfxyDQ6G-gjJdA:1647457304974&source=univ&tbm=isch&q=imagenes+de+microfonos+google&fir=kl1jAt2tfr9TTM%252C_5yVtsIaD-qm2M%252C_%253Bwz10QXiaq0VloM%252C7TFnfG0UjwtpUM%252C_%253BeRm_ek5y1LJdoM%252Cav2oUmcc0NB0YM%252C_%253BpCTwwVQS2RnY7M%252C7TFnfG0UjwtpUM%252C_%253BTlFUwacf5u9aYM%252Cav2oUmcc0NB0YM%252C_%253Bnb0aYJLsI7Y3hM%252C7TFnfG0UjwtpUM%252C_%253BbWOk-R_MZtGxhM%252C1fCowMuW03Nk1M%252C_%253BzrhFhYrPYG1gnM%252C_rwz3FFPzB1RMM%252C_%253BfA4Qyuh-D-iKUM%252C7TFnfG0UjwtpUM%252C_%253BiNBZAxfNR6yAsM%252CmBasGxRCi_equM%252C_&usg=AI4_-kRlPW4z92DGr9JwQstpxRoAr1n8dA&sa=X&ved=2ahUKEwjD-MfbqMv2AhV_EbkGHU6_D_8QjJkEegQIAhAC&biw=1294&bih=636&dpr=1">
-                        <img class="microfono_google" src="imagenes/voz-de-google.png" alt="busqueda por microfono">
+                        <img class="microGoogle" src="imagenes/voz-de-google.png" alt="busqueda por microfono">
                     </a>
-                    
                 </button>
             </div>
         </div>
 
-        <div>
-            <div class="row">
-                <div class="col">
-                    <div class="d-flex gap-4 justify-content-center mb-5">
-                        <button class="btn btn-light boton1" type="button">Buscar con google
-                            <a href="https://www.google.com.ar/?hl=es"></a>
-                        </button>
-                        <button class="btn btn-light boton1" type="button">Me siento con suerte
-                            <a href="https://www.google.com/doodles"></a>
-                        </button>
-                    </div>
-                    <div class="container d-flex justify-content-center align-items-center">
-                        <p>Ofrecido por google en: <a class="text ancla_espanol" href="https://www.google.com.ar/">Español (Latinoamerica)</a></p>
-                    </div>
+        
+        <div class="row">
+            <div class="col mb-5 pb-4">
+                <div class="d-flex gap-4 justify-content-center mb-4">
+                    <button class="btn btn-light boton1" type="button">Buscar con google
+                        <a href="https://www.google.com.ar/?hl=es"></a>
+                    </button>
+                    <button class="btn btn-light boton1" type="button">Me siento con suerte
+                        <a href="https://www.google.com/doodles"></a>
+                    </button>
+                </div>
+                <div class="container d-flex justify-content-center align-items-center mb-5">
+                    <p>Ofrecido por google en: <a class="text linkIdioma" href="https://www.google.com.ar/">Español (Latinoamerica)</a></p>
                 </div>
             </div>
         </div>
+        
     </main>
 
-    
+    <footer class="footer container-fluid m-0 d-block">
+        <div class="row fila1">
+            <div class="col paisFooter">
+                Argentina
+            </div>
+        </div>
+        <div class="fila2 d-flex justify-content-space-evenly flex-wrap">
+            <div class="caja1 d-flex justify-content-space-evenly flex-wrap">
+                <a class="nav-link2" href="#">Sobre google</a>
+                <a class="nav-link2" href="#">Publicidad</a>
+                <a class="nav-link2" href="#">Negocios</a>
+                <a class="nav-link2" href="#">Como funciona la Busqueda</a>
+            </div>
+
+            <div class="caja2 d-flex justify-content-space-evenly flex-wrap">
+                <a class="nav-link2" href="#">Privacidad</a>
+                <a class="nav-link2" href="#">Condiciones</a>
+                <a class="nav-link2" href="#">Preferencias</a>
+            </div>
+        </div>
+        
+    </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
